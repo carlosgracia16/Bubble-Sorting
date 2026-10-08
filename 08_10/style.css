@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.titulo {
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: 70px;
+}
+
+input[type="button"] {
+    display: block;
+    width: 150px;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+#exibidor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-height: 100px;
+}
+
+.numero {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.comparando {
+    transform: scale(1.2);
+}
+
+.trocando {
+    transform: translateY(-20px) scale(1.2);
+}
